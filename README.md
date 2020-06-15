@@ -1,6 +1,6 @@
-# Frontend integration project from my portfolio, with HTML5, CSS3, Javascript and Bootstrap
+# Portfolio frontend integration project, with HTML5, CSS3, Javascript and Bootstrap
 
-## 🚀 See project
+## 🚀 To see project
 
 1.  **Open project**
 
