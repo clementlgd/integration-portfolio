@@ -1,0 +1,250 @@
+/* GENERAL */
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+section{
+	padding: 80px 0 0 0;
+}
+section .heading h2{
+	text-align: center;
+	padding-bottom: 55px;
+}
+section .heading h2{
+	text-transform: uppercase;
+}
+
+/* MENU NAVIGATION */
+.navbar{
+	background-color: #fff !important;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar .nav{
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+.navbar .navbar-brand {
+  color: #326FAB;
+}
+.navbar .navbar-collapse{
+	text-align: center;
+}
+.navbar li a{
+	color: #326FAB !important;
+}
+.navbar li a:hover{
+	color: rgb(110, 149, 187) !important;
+}
+.navbar li.active a{
+	color: rgb(19, 58, 97) !important;
+}
+
+
+
+/* BANNER */
+#banner{
+	padding-top: 140px;
+  background-image: url('./image/pencil-bg-min.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-attachment: fixed;
+	text-align: center !important;
+	height: 100vh;
+}
+.profile-picture {
+  width: 15%;
+  margin-bottom: 30px;
+}
+#banner .heading h1{
+	color: #FFF;
+	text-transform: uppercase;
+}
+#banner .heading h2{
+	color: #1A5D63;
+}
+.ityped {
+  color: rgb(110, 149, 187);
+}
+.button1{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	border: 1px solid white;
+	display: inline-block;
+	margin-top: 20px;
+	padding: 18px 50px;
+	border-radius: 3px;
+	transition: all 0.3s ease-in 0s;
+}
+.button1:hover{
+	background: white;
+	color: #326FAB;
+	text-decoration: none;
+}
+section .heading {
+	text-align: center !important;
+}
+/* Faire rebondir la fleche */
+.bounce {
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+.bounceImg{
+  width: 3%;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+/* ABOUT */
+#about {
+  padding: 80px 0 100px 0;
+}
+#about .heading h2{
+	color: #326FAB;
+}
+#about p {
+  line-height: 2;
+}
+
+/* EDUCATION */
+#education{
+  background-image: url('./image/pencil-bg-min.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+}
+#education .heading h2{
+	color: #fff;
+}
+.education-block{
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  background: #fff;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+.education-block h5{
+	color: rgb(175, 175, 175);
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+.education-block .glyphicon{
+	font-size: 40px;
+}
+.education-block h3{
+	color: #004C97;
+}
+.education-block h4{
+	margin-bottom: 20px;
+}
+.education-block p{
+	font-weight: bold;
+}
+.education-block .red-divider{
+	margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color:rgb(235, 235, 235);
+}
+footer h5 {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  #banner{
+    padding-top: 220px;
+  }
+  .profile-picture {
+    width: 40%!important;
+  }
+  h1{
+    font-size: 25px!important;
+    margin-bottom: 20px!important;
+  }
+  h3{
+    font-size: 18px!important;
+  }
+  .bounceImg{
+    width: 10%!important;
+  }
+  #about p{
+    padding: 0 15px 0 15px;
+  }
+}

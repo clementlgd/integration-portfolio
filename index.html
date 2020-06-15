@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Clément L</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+    <a class="navbar-brand" href="#">Clément L.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./experiences/experiences.html">Experiences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./portfolio/portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./services/services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact/contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--*********BANNER*********-->
+  <section id="banner" class="container-fluid d-flex flex-column align-items-center">
+    <div class="profile-picture">
+      <img class="rounded-circle .img-fluid" src="image/clement-2019-v2.jpeg" alt="Clément">
+    </div>
+    <div class="heading">
+      <h1>Clément Legrand</h1>
+      <h3>Hello ! I'm <span class="ityped"></span></h3>
+      <a href="./contact/contact.html" class="button1">Contact me</a>
+      <a class="bounce" href="#about">
+        <img class="bounceImg" src="image/down-arrow.svg" alt="arrow">
+      </a>
+    </div>
+  </section>
+
+  <!--*********ABOUT*********-->
+  <section id="about">
+    <div class="container">
+      <div class="heading">
+        <h2>About me</h2>
+      </div>
+      <p>Hello, I'm Clément, I'm student and freelance web developer. I'm in third year in Web School Factory, a digital management school based in Paris. I'm currently in student exchange in RMIT University in Ho Chi Minh, Vietnam.I study digital management and entrepreneurship. This year, I chose to specialize in Digital technologies, in which we learn about coding languages, project management and many more like web design or e-marketing.</p>
+    </div>
+  </section>
+
+  <!--*********EDUCATION*********-->
+  <section id="education">
+    <div class="container">
+      <div class="heading">
+        <h2>Education</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 hideme" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="education-block">
+            <h5>Current - Student exchange</h5>
+            <span class="glyphicon glyphicon-education"></span>
+            <h3>RMIT University Vietnam</h3>
+            <h4>During one semester</h4>
+            <div class="red-divider"></div>
+            <p>Web Programming - IT - Design</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 hideme" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="education-block">
+            <h5>Current : 2017 - 2022 </h5>
+            <span class="glyphicon glyphicon-education"></span>
+            <h3>Web School Factory</h3>
+            <h4>3rd year</h4>
+            <div class="red-divider"></div>
+            <p>HTML - CSS - JS - Wordpress - Web Design - Marketing</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 hideme" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="education-block">
+            <h5>2016 - 2017 </h5>
+            <span class="glyphicon glyphicon-education"></span>
+            <h3>ECE Paris</h3>
+            <h4>1st year of Engineer school</h4>
+            <div class="red-divider"></div>
+            <p>Language C - Arduino</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+      <h5>© 2019 Clément Legrand</h5>
+  </footer>
+
+  <script src="https://unpkg.com/ityped@1.0.3"></script>
+  <script>
+    window.ityped.init(document.querySelector('.ityped'),{
+        strings: ['a digital student','Freelancer', 'Frontend developer'],
+        loop: true
+    });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
